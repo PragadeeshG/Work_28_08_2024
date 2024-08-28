@@ -1,0 +1,15 @@
+create table if not exists sub_domain_account_response(
+sub_domain_id Integer not null,
+sub_domain_owner varchar(255) null,
+active_account char null,
+sub_domain_type_id Integer null,
+sub_domain_type varchar(255) null,
+sub_domain_status varchar(255) null,
+sub_domain_description Integer null,
+authorizer_count Integer null,
+auth_country varchar(255) null,
+auth_region_code Integer null,
+exceptions varchar(255) null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint sub_domain_account_response_pk primary key(sub_domain_id));

@@ -1,0 +1,15 @@
+create table if not exists sub_domain_workflow(
+workflow_code Integer not null,
+workflow_type varchar(255) null,
+ref_id varchar(255) null,
+screen_id varchar(255) null,
+cr_id Integer null,
+file_upload_id Integer null,
+requested_by Integer null,
+requested_for varchar(255) null,
+change_remarks varchar(255) null,
+change_description varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint sub_domain_workflow_pk primary key(workflow_code));
